@@ -6,11 +6,11 @@ const app = express();
 const hostname = '127.0.0.1';
 const port = 3002;
 const sqlite3 = require('sqlite3').verbose();
-const DBPATH = '/Users/mauriciofelicissimo/Desktop/semana5/data/bd.db'; 
+const DBPATH = '/Users/mauriciofelicissimo/Desktop/semana5/PonderadaSemana5/data/bd.db'; 
 // const DBPATH = '../data/bd.db'; 
 
 
-app.use(express.static("/Users/mauriciofelicissimo/Desktop/semana5/frontend"));
+app.use(express.static("/Users/mauriciofelicissimo/Desktop/semana5/PonderadaSemana5/frontend"));
 // app.use(express.static("../frontend"));
 
 app.use(express.json());
